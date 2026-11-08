@@ -17,6 +17,6 @@ private Garage bucket read by gtfs-zone-wifi-pipeline.
   Co-Authored-By trailers. Setup is in [CONTRIBUTING.md](CONTRIBUTING.md).
 - **Cross-repo work**: sibling gtfs.zone repos live under the same parent
   directory and may be read and edited when a change spans repos.
-- **Plans**: the cross-repo plan is `docs/overview.md` in
-  gtfs-zone-wifi-pipeline. A local `CURRENT_PLAN.md` here is neither tracked
-  nor gitignored: never stage or commit it.
+- **Plans**: the central plan is `CURRENT_PLAN.md` in gtfs-zone-wifi-pipeline
+  (phases across all wifi repos). A local `CURRENT_PLAN.md` here only points
+  there. It is neither tracked nor gitignored: never stage or commit it.
