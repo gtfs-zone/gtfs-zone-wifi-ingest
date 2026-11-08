@@ -1,0 +1,219 @@
+{
+  "schema_version": 1,
+  "session_id": "a7e4b0c2-1d3f-4a5b-b6c7-d8e9f0a1b2c3",
+  "app_version": "0.1.0",
+  "kind": "trip",
+  "started_at": "2026-11-08T15:02:00Z",
+  "ended_at": "2026-11-08T15:03:10Z",
+  "trip": {
+    "transitous_trip_id": "20261108_16:02_de-DELFI_3470012345",
+    "transitous_route_id": "de-DELFI_de:VBB:11000000|R-Bahn|RE2:_100",
+    "transitous_source": null,
+    "gtfs": {
+      "feed": "de-DELFI",
+      "trip_id": "3470012345",
+      "route_id": "de:VBB:11000000|R-Bahn|RE2:_100",
+      "agency_id": null,
+      "service_date": "20261108"
+    },
+    "route_name": "RE2",
+    "route_type": 100,
+    "mode": "REGIONAL_RAIL",
+    "agency_name": "DB Regio AG Nordost",
+    "headsign": "Cottbus Hbf",
+    "trip_short_name": "073912",
+    "boarding": {
+      "transitous_stop_id": "de-DELFI_de:11000:900029305:2:52",
+      "transitous_parent_id": "de-DELFI_de:11000:900029305",
+      "gtfs_stop_id": "de:11000:900029305:2:52",
+      "name": "S+U Berlin-Spandau",
+      "lat": 52.534407,
+      "lon": 13.197942,
+      "scheduled_time": "2026-11-08T15:02:00Z"
+    },
+    "alighting": {
+      "transitous_stop_id": "de-DELFI_de:11000:900003200:1:51",
+      "transitous_parent_id": "de-DELFI_de:11000:900003201",
+      "gtfs_stop_id": "de:11000:900003200:1:51",
+      "name": "S+U Berlin Hauptbahnhof",
+      "lat": 52.52496,
+      "lon": 13.368911,
+      "scheduled_time": "2026-11-08T15:03:10Z"
+    },
+    "car_number": null,
+    "class": null
+  },
+  "samples": [
+    {
+      "t": "2026-11-08T15:02:00Z",
+      "lat": 52.534407,
+      "lon": 13.197942,
+      "acc": 15.0,
+      "speed": null,
+      "wifi": {
+        "ssid": "Bahn-Free",
+        "bssid": "06:aa:bb:cc:dd:01",
+        "rssi": -78,
+        "link_mbps": 6,
+        "frequency": 2437
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -110,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:02:10Z",
+      "lat": 52.533057,
+      "lon": 13.222366,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": {
+        "ssid": "Bahn-Free",
+        "bssid": "06:aa:bb:cc:dd:01",
+        "rssi": -79,
+        "link_mbps": 6,
+        "frequency": 2437
+      },
+      "cell": {
+        "tech": "nr",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -111,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:02:20Z",
+      "lat": 52.531708,
+      "lon": 13.24679,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": {
+        "ssid": "Bahn-Free",
+        "bssid": "06:aa:bb:cc:dd:01",
+        "rssi": -80,
+        "link_mbps": 6,
+        "frequency": 2437
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -112,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:02:30Z",
+      "lat": 52.530358,
+      "lon": 13.271214,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": {
+        "ssid": "Bahn-Free",
+        "bssid": "06:aa:bb:cc:dd:01",
+        "rssi": -81,
+        "link_mbps": 6,
+        "frequency": 2437
+      },
+      "cell": {
+        "tech": "nr",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -113,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:02:40Z",
+      "lat": 52.529009,
+      "lon": 13.295639,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": {
+        "ssid": "Bahn-Free",
+        "bssid": "06:aa:bb:cc:dd:01",
+        "rssi": -82,
+        "link_mbps": null,
+        "frequency": 2437
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -114,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:02:50Z",
+      "lat": 52.527659,
+      "lon": 13.320063,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": null,
+      "cell": {
+        "tech": "nr",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -115,
+        "level_0_4": 1
+      }
+    },
+    {
+      "t": "2026-11-08T15:03:00Z",
+      "lat": 52.52631,
+      "lon": 13.344487,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": null,
+      "cell": null
+    },
+    {
+      "t": "2026-11-08T15:03:10Z",
+      "lat": 52.52496,
+      "lon": 13.368911,
+      "acc": 15.0,
+      "speed": 22.0,
+      "wifi": null,
+      "cell": {
+        "tech": "nr",
+        "mcc": "262",
+        "mnc": "02",
+        "level_dbm": -117,
+        "level_0_4": 1
+      }
+    }
+  ],
+  "net_tests": [
+    {
+      "t": "2026-11-08T15:02:05Z",
+      "transport": "wifi",
+      "reachable": false,
+      "captive_portal": true,
+      "latency_ms": null,
+      "fetch_bytes": null,
+      "fetch_ms": null
+    },
+    {
+      "t": "2026-11-08T15:03:05Z",
+      "transport": "cell",
+      "reachable": true,
+      "captive_portal": false,
+      "latency_ms": 142.0,
+      "fetch_bytes": 102400,
+      "fetch_ms": 2300.0
+    }
+  ],
+  "reports": {
+    "outlets": "none",
+    "wifi": "broken",
+    "portal": "email",
+    "data_cap": null,
+    "vpn_blocked": true
+  }
+}
