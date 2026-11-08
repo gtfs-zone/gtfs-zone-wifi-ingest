@@ -23,6 +23,13 @@ def test_healthz(client):
     assert resp.json() == {"status": "ok"}
 
 
+def test_generate_204(client):
+    resp = client.get("/generate_204")
+    assert resp.status_code == 204
+    assert resp.content == b""
+    assert resp.headers["cache-control"] == "no-store"
+
+
 @pytest.mark.parametrize("path", FIXTURES, ids=lambda p: p.stem)
 def test_fixture_is_created(client, s3, path):
     body = path.read_bytes()

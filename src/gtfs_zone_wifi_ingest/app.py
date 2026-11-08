@@ -1,4 +1,4 @@
-"""HTTP API: POST /v1/sessions and GET /healthz."""
+"""HTTP API: POST /v1/sessions, GET /healthz and GET /generate_204."""
 
 from __future__ import annotations
 
@@ -10,15 +10,13 @@ import zlib
 from typing import TYPE_CHECKING
 
 from fastapi import FastAPI, Request
-from fastapi.responses import JSONResponse
+from fastapi.responses import JSONResponse, Response
 
 from gtfs_zone_wifi_ingest.ratelimit import RateLimiter
 from gtfs_zone_wifi_ingest.schema import SessionSchemas
 
 if TYPE_CHECKING:
     from collections.abc import Awaitable, Callable
-
-    from fastapi import Response
 
     from gtfs_zone_wifi_ingest.config import Settings
     from gtfs_zone_wifi_ingest.store import SessionStore
@@ -97,6 +95,12 @@ def create_app(settings: Settings, store: SessionStore) -> FastAPI:
     @app.get("/healthz")
     async def healthz() -> dict[str, str]:
         return {"status": "ok"}
+
+    @app.get("/generate_204")
+    async def generate_204() -> Response:
+        # Connectivity probe for the app: anything but an empty 204 means a
+        # captive portal answered instead.
+        return Response(status_code=204, headers={"Cache-Control": "no-store"})
 
     @app.post("/v1/sessions")
     async def post_session(request: Request) -> JSONResponse:
