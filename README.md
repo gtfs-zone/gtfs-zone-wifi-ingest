@@ -17,6 +17,7 @@ No database and no accounts. See the [project overview](https://github.com/gtfs-
 |---|---|
 | `POST /v1/sessions` | `201` new session, `200` session_id already stored, `400` not JSON or bad gzip, `413` over the size limit (sent or decompressed), `415` unsupported `Content-Encoding`, `422` schema errors (up to 10), `429` rate limited (with `Retry-After`) |
 | `GET /healthz` | `200 {"status": "ok"}` |
+| `GET /generate_204` | `204` with an empty body; the app's connectivity and captive portal probe, served over plain HTTP |
 
 The body is a session as JSON (`schemas/session.v1.json`). Send it gzipped with
 `Content-Encoding: gzip`.
