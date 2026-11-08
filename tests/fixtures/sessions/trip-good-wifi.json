@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "session_id": "3f1c2a9e-6b7d-4e2f-9a1b-8c5d4e3f2a1b",
+  "app_version": "0.1.0",
+  "kind": "trip",
+  "started_at": "2026-11-08T13:19:00Z",
+  "ended_at": "2026-11-08T13:20:20Z",
+  "trip": {
+    "transitous_trip_id": "20261108_14:19_de-DELFI_3468911239",
+    "transitous_route_id": "de-DELFI_de:VBB:11000000|R-Bahn|FEX:_100",
+    "transitous_source": "de_DELFI.gtfs.zip/stop_times.txt:43735665:43735668",
+    "gtfs": {
+      "feed": "de-DELFI",
+      "trip_id": "3468911239",
+      "route_id": "de:VBB:11000000|R-Bahn|FEX:_100",
+      "agency_id": "10434",
+      "service_date": "20261108"
+    },
+    "route_name": "FEX",
+    "route_type": 100,
+    "mode": "REGIONAL_RAIL",
+    "agency_name": "DB Regio AG Nordost",
+    "headsign": "Flughafen BER",
+    "trip_short_name": "021889",
+    "boarding": {
+      "transitous_stop_id": "de-DELFI_de:11000:900003200:1:50",
+      "transitous_parent_id": "de-DELFI_de:11000:900003201",
+      "gtfs_stop_id": "de:11000:900003200:1:50",
+      "name": "S+U Berlin Hauptbahnhof",
+      "lat": 52.52496,
+      "lon": 13.368911,
+      "scheduled_time": "2026-11-08T13:19:00Z"
+    },
+    "alighting": {
+      "transitous_stop_id": "de-DELFI_de:11000:900120005:3:52",
+      "transitous_parent_id": "de-DELFI_de:11000:900120005",
+      "gtfs_stop_id": "de:11000:900120005:3:52",
+      "name": "S Ostbahnhof",
+      "lat": 52.510972,
+      "lon": 13.434567,
+      "scheduled_time": "2026-11-08T13:20:20Z"
+    },
+    "car_number": "4",
+    "class": "2"
+  },
+  "samples": [
+    {
+      "t": "2026-11-08T13:19:00Z",
+      "lat": 52.52496,
+      "lon": 13.368911,
+      "acc": 8.0,
+      "speed": 12.5,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -55,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -95,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:19:10Z",
+      "lat": 52.523212,
+      "lon": 13.377118,
+      "acc": 8.0,
+      "speed": 13.0,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -56,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -96,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:19:20Z",
+      "lat": 52.521463,
+      "lon": 13.385325,
+      "acc": 8.0,
+      "speed": 13.5,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -57,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -97,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:19:30Z",
+      "lat": 52.519714,
+      "lon": 13.393532,
+      "acc": 8.0,
+      "speed": 14.0,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -55,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -98,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:19:40Z",
+      "lat": 52.517966,
+      "lon": 13.401739,
+      "acc": 8.0,
+      "speed": 14.5,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -56,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -99,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:19:50Z",
+      "lat": 52.516218,
+      "lon": 13.409946,
+      "acc": 8.0,
+      "speed": 15.0,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -57,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -100,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:20:00Z",
+      "lat": 52.514469,
+      "lon": 13.418153,
+      "acc": 8.0,
+      "speed": 15.5,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -55,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -101,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:20:10Z",
+      "lat": 52.512721,
+      "lon": 13.42636,
+      "acc": 8.0,
+      "speed": 16.0,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -56,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -102,
+        "level_0_4": 3
+      }
+    },
+    {
+      "t": "2026-11-08T13:20:20Z",
+      "lat": 52.510972,
+      "lon": 13.434567,
+      "acc": 8.0,
+      "speed": 16.5,
+      "wifi": {
+        "ssid": "WIFIonICE",
+        "bssid": "02:1a:2b:3c:4d:5e",
+        "rssi": -57,
+        "link_mbps": 144,
+        "frequency": 5180
+      },
+      "cell": {
+        "tech": "lte",
+        "mcc": "262",
+        "mnc": "01",
+        "level_dbm": -103,
+        "level_0_4": 3
+      }
+    }
+  ],
+  "net_tests": [
+    {
+      "t": "2026-11-08T13:19:05Z",
+      "transport": "wifi",
+      "reachable": true,
+      "captive_portal": false,
+      "latency_ms": 48.0,
+      "fetch_bytes": 102400,
+      "fetch_ms": 820.0
+    },
+    {
+      "t": "2026-11-08T13:20:05Z",
+      "transport": "wifi",
+      "reachable": true,
+      "captive_portal": false,
+      "latency_ms": 61.0,
+      "fetch_bytes": 102400,
+      "fetch_ms": 1010.0
+    }
+  ],
+  "reports": {
+    "outlets": "working",
+    "wifi": "works",
+    "portal": "click",
+    "data_cap": false,
+    "vpn_blocked": false
+  }
+}
